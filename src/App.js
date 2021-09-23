@@ -7,10 +7,11 @@ function App() {
   return (
     <div className="App container mt-4">
       <header className="App-header">
-        Hello world!
-          <Schedule talks={talks}/>
+          <h1 className="visually-hidden">FePro Accessible!!!</h1>
       </header>
-
+        <main id="content">
+            <Schedule talks={talks}/>
+        </main>
     </div>
   );
 }

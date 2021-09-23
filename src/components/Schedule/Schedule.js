@@ -1,3 +1,5 @@
+import "./Schedule.css";
+
 function Schedule({talks}) {
     return (
         <ul className="talks">
@@ -6,7 +8,7 @@ function Schedule({talks}) {
                 <li className="talk">
                     <div className="row">
                         <div className="col-2">
-                            <img src={talk.image} className="img-fluid"/>
+                            <img src={talk.image} className="img-fluid" alt="" />
                         </div>
                         <div className="col-10">
                             <span className="talk-date">
