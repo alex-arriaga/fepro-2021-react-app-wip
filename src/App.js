@@ -1,7 +1,9 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Schedule from "./components/Schedule/Schedule";
+import Register from "./components/Register/Register";
 import talks from "./data/talks.json";
+import RegisterSpectrum from "./components/RegisterSpectrum/RegisterSpectrum";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       </header>
         <main id="content">
             <Schedule talks={talks}/>
+            <Register />
+            <RegisterSpectrum/>
         </main>
     </div>
   );

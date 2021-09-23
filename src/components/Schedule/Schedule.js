@@ -2,7 +2,7 @@ import "./Schedule.css";
 
 function Schedule({talks}) {
     return (
-        <ul className="talks">
+        <ul className="talks" id="talks">
             {talks.map(talk => (
 
                 <li className="talk">
